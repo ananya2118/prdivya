@@ -1,0 +1,212 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(38, 36, 36);
+    font-family: Arial, sans-serif;
+    padding: 28x;
+    font-size: 50px;
+    text-decoration: dashed;
+}
+
+header {
+    background-color: rgb(227, 227, 245); /* Light Purple color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+ .departments {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    size: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Text Styles */
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #333; /* Dark gray text color */
+    padding-top: 10px;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.department {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Cardiology Background */
+.cardiology {
+    background-image: url('cardiology.jpeg'); /* Replace with your image URL */
+    background-size: cover; /* This will cover the entire container */
+    height: 350px;
+}
+
+.neurology {
+    background-image: url('neurology.png'); /* Replace with your image URL */
+    background-size: 100%; /* This will stretch the image to 100% width of the container */
+    height: 370px;
+}
+/* Orthopedics Background */
+.orthopedics {
+    background-image: url('orthopaedics.png'); /* Replace with your image URL */
+    background-size: 100%; /* This will stretch the image to 100% width of the container */
+    height: 370px;
+}
+
+/* Obstetrics & Gynecology Background */
+.obgyn {
+    background-image: url('obgyn.jpg'); /* Replace with your image URL */
+    background-size: 100%; /* This will stretch the image to 100% width of the container */
+    height: 370px/* This will fit the entire image within the container */
+}
+/* Department Text Styles */
+ .department h3,.department p {
+    text-align: left;
+}
+.neurology p,.neurology h3 {
+    text-align: right;
+    padding-left: 1000px;
+    padding-right: 0px;
+}
+.obgyn p , .obgyn h3 {
+    text-align: right;
+    padding-left: 1000px;
+    padding-right: 0px;
+}
+
+.cardiology .dephead {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white; /* White text color */
+    /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 800px;
+    padding-left: 0px;
+}
+
+.cardiology .anch{
+    color: white;
+    font-size: 25px;
+}
+.cardiology .anch:hover {
+    color: black;
+}
+/* Additional Styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: white; /* Light Purple color */
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .department h3 {
+        font-size: 20px;
+    }
+    .department p {
+        font-size: 16px;
+    }
+}
+
+/* Additional Styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #d49bdf; /* Light Purple color */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .department .overlay {
+        opacity: 1; /* Show overlay on small screens */
+    }
+}
+
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .department {
+        flex-direction: column; /* Stack image and text on small screens */
+    }
+    .department .text {
+        flex: auto; /* Reset flex to default (equal width) on small screens */
+    }
+}
+
+
+
+/* Text Styles */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff; /* White text color */
+    /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 800px;
+    padding-left: 0px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .department h3 {
+        font-size: 20px;
+        color: white;
+    }
+    .department p {
+        font-size: 16px;
+    }
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+     .departments {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .department {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+   
+}
+
